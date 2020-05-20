@@ -16,4 +16,12 @@ cnpm i babel-preset-es2015 --save //实现es6转换成es5 打包还是不行   �
 
 
 
-#  
+#  使用 npm run serve 打包
+
+//在package.json 文件中的scripts中新加一行 
+```
+ "scripts": {
+    "build" :"babel src/index.js -o dist/index.js"
+
+  },
+```
