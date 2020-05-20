@@ -25,7 +25,7 @@ dist:利用babel编译成的ES5代码的文件夹
 
 4、输入npm init -y,生成一个package.json文件
 
-![](https://img2018.cnblogs.com/blog/1675843/201905/1675843-20190508201858200-1990026438.png)
+![](https://upload-images.jianshu.io/upload_images/12693563-94cdf6c0eabf4bf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 5、输入npm install -g babel-cli，全局安装babel-cli命令行，出现下图提示，安装成功
 
