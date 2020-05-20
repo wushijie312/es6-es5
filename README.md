@@ -25,6 +25,26 @@ cnpm i babel-preset-es2015 --save //实现es6转换成es5 打包还是不行   �
 
   },
 ```
+# 使用热更新
+
+```
+
+live-server  //全局安装 cnpm i --save live-server 然后执行live-server即可实现热更新
+
+```
+#  使用 live-server
+
+//在package.json 文件中的scripts中新加一行 
+```
+ "scripts": {
+    "server": "live-server ./ --port=8081"
+  },
+```
+
+
+
+
+
 
 
 ES6开发环境搭建（将ES6语法转换为ES5语法）
